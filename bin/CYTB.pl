@@ -5,6 +5,9 @@
 use strict; 
 use Bio::Perl; 
 my @genomas= ( #CYTB 
+'KJ829569',
+'KJ829570', 
+'KJ829573',
 'KJ829571',
 'KJ829572',
 'KJ829584',
