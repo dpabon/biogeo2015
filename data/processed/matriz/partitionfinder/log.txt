@@ -1,0 +1,43 @@
+INFO     | 2015-08-24 11:33:44,944 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2015-08-24 11:33:44,953 | config     | Setting 'alignment' to 'matrix.phy'
+INFO     | 2015-08-24 11:33:44,954 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2015-08-24 11:33:44,955 | parser     | Setting 'models' to 'all'
+INFO     | 2015-08-24 11:33:44,955 | parser     | The models included in this analysis are: K81+I, GTR+I, F81+I+G, GTR+G, TrN+G, F81, K81+G, F81+G, TIM, TIM+I+G, TVM+G, JC+I+G, TVMef+G, TVMef+I, TVM+I, TrNef+I, F81+I, JC, TIMef+G, HKY, K81uf+I, TVMef, K81uf+G, K81+I+G, TIMef+I, TVM, SYM+I, K81uf, JC+I, K80, K81, K80+I+G, K80+I, SYM+G, K81uf+I+G, K80+G, TrN+I, GTR+I+G, GTR, TIM+G, HKY+I+G, TIMef, TIM+I, TVMef+I+G, TVM+I+G, HKY+G, SYM+I+G, TrN, HKY+I, SYM, TIMef+I+G, JC+G, TrNef, TrNef+G, TrNef+I+G, TrN+I+G
+INFO     | 2015-08-24 11:33:44,956 | parser     | Setting datatype to 'DNA'
+INFO     | 2015-08-24 11:33:44,956 | config     | Setting 'model_selection' to 'aic'
+INFO     | 2015-08-24 11:33:44,960 | config     | Setting 'search' to 'greedy'
+INFO     | 2015-08-24 11:33:44,960 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2015-08-24 11:33:44,961 | config     | Looking for alignment file './matrix.phy'...
+INFO     | 2015-08-24 11:33:44,961 | analysis   | Beginning Analysis
+INFO     | 2015-08-24 11:33:44,961 | analysis   | Removing Schemes in './analysis/schemes' (they will be recalculated from existing subset data)
+INFO     | 2015-08-24 11:33:44,962 | config     | Checking previously run configuration data...
+INFO     | 2015-08-24 11:33:44,963 | alignment  | Reading alignment file './matrix.phy'
+INFO     | 2015-08-24 11:33:44,989 | analysis   | No starting tree file found.
+INFO     | 2015-08-24 11:33:44,989 | phyml      | Making BioNJ tree for ./analysis/start_tree/filtered_source.phy
+INFO     | 2015-08-24 11:33:45,155 | phyml      | Estimating GTR+I+G branch lengths on tree
+INFO     | 2015-08-24 11:34:29,071 | phyml      | Branchlength estimation finished
+INFO     | 2015-08-24 11:34:29,071 | analysis   | Starting tree with branch lengths is here: ./analysis/start_tree/filtered_source.phy_phyml_tree.txt
+INFO     | 2015-08-24 11:34:29,072 | method     | Performing greedy analysis
+INFO     | 2015-08-24 11:34:29,074 | progress   | PartitionFinder will have to analyse 13 subsets to complete this analysis
+INFO     | 2015-08-24 11:34:29,074 | progress   | This will result in 11 schemes being created
+INFO     | 2015-08-24 11:34:29,075 | method     | Analysing starting scheme (scheme start_scheme)
+INFO     | 2015-08-24 11:34:29,093 | threadpool | Found 4 cpus
+INFO     | 2015-08-24 11:35:04,310 | progress   | Finished subset 1/13, 7.69 percent done
+INFO     | 2015-08-24 11:35:09,550 | progress   | Finished subset 2/13, 15.38 percent done
+INFO     | 2015-08-24 11:35:45,780 | progress   | Finished subset 3/13, 23.08 percent done
+INFO     | 2015-08-24 11:35:54,854 | progress   | Finished subset 4/13, 30.77 percent done
+INFO     | 2015-08-24 11:35:54,855 | method     | ***Greedy algorithm step 1***
+INFO     | 2015-08-24 11:36:17,735 | progress   | Finished subset 5/13, 38.46 percent done
+INFO     | 2015-08-24 11:37:18,209 | progress   | Finished subset 6/13, 46.15 percent done
+INFO     | 2015-08-24 11:38:16,180 | progress   | Finished subset 7/13, 53.85 percent done
+INFO     | 2015-08-24 11:39:12,828 | progress   | Finished subset 8/13, 61.54 percent done
+INFO     | 2015-08-24 11:40:02,912 | progress   | Finished subset 9/13, 69.23 percent done
+INFO     | 2015-08-24 11:41:39,572 | progress   | Finished subset 10/13, 76.92 percent done
+INFO     | 2015-08-24 11:41:39,573 | method     | ***Greedy algorithm step 2***
+INFO     | 2015-08-24 11:43:08,598 | progress   | Finished subset 11/13, 84.62 percent done
+INFO     | 2015-08-24 11:45:08,995 | progress   | Finished subset 12/13, 92.31 percent done
+INFO     | 2015-08-24 11:45:08,996 | method     | Greedy algorithm finished after 2 steps
+INFO     | 2015-08-24 11:45:08,996 | method     | Highest scoring scheme is scheme step_1, with aic score of 12329.682
+INFO     | 2015-08-24 11:45:08,996 | reporter   | Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2015-08-24 11:45:08,997 | main       | Total processing time: 0:11:24 (h:m:s)
+INFO     | 2015-08-24 11:45:08,997 | main       | Processing complete.

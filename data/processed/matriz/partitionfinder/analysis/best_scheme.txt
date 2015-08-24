@@ -1,0 +1,31 @@
+Settings used
+
+alignment         : ./matrix.phy
+branchlengths     : linked
+models            : K81+I, GTR+I, F81+I+G, GTR+G, TrN+G, F81, K81+G, F81+G, TIM, TIM+I+G, TVM+G, JC+I+G, TVMef+G, TVMef+I, TVM+I, TrNef+I, F81+I, JC, TIMef+G, HKY, K81uf+I, TVMef, K81uf+G, K81+I+G, TIMef+I, TVM, SYM+I, K81uf, JC+I, K80, K81, K80+I+G, K80+I, SYM+G, K81uf+I+G, K80+G, TrN+I, GTR+I+G, GTR, TIM+G, HKY+I+G, TIMef, TIM+I, TVMef+I+G, TVM+I+G, HKY+G, SYM+I+G, TrN, HKY+I, SYM, TIMef+I+G, JC+G, TrNef, TrNef+G, TrNef+I+G, TrN+I+G
+model_selection   : aic
+search            : greedy
+
+
+Best partitioning scheme
+
+Scheme Name       : step_1
+Scheme lnL        : -6076.84099
+Scheme AIC        : 12329.68198
+Number of params  : 88
+Number of sites   : 1841
+Number of subsets : 3
+
+Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment                               
+1      | GTR+I+G    | alineamiento_16S               | 1-533                          | ./analysis/phylofiles/524e6d444bfbafc9e254492aeab2c2bf.phy
+2      | GTR+I+G    | alineamiento_COI, alineamiento_CYTB | 534-1005, 1006-1438            | ./analysis/phylofiles/95123f36ba1e57a21f11b36af409f089.phy
+3      | TVMef+I    | alineamiento_WG                | 1439-1841                      | ./analysis/phylofiles/604d2f22a9340b0a94f06ae4beb5a847.phy
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_1 = (alineamiento_16S) (alineamiento_COI, alineamiento_CYTB) (alineamiento_WG);
+
+RaxML-style partition definitions
+DNA, p1 = 1-533
+DNA, p2 = 534-1005, 1006-1438
+DNA, p3 = 1439-1841
