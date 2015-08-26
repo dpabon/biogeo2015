@@ -54,7 +54,7 @@ begin mrbayes;
 	prset applyto=(4) pinvarpr=fixed(0.8640);
 	lset applyto=(1,2) nst=6 rates=invgamma;
 	lset applyto=(3) nst=6 rates=gamma;
-	lset applyto(4) nst=6 rates=propinv;
+	lset applyto=(4) nst=6 rates=propinv;
 	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all);
 	prset applyto=(all) ratepr=variable;
 	mcmcp ngen= 10000000 relburnin=yes burninfrac=0.25 printfreq=1000  samplefreq=1000 nchains=2 checkpoint=yes savebrlens=yes;
