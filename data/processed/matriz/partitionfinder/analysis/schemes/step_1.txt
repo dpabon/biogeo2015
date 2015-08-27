@@ -1,20 +1,36 @@
 Scheme Name       : step_1
-Scheme lnL        : -6076.84099
-Scheme AIC        : 12329.68198
-Number of params  : 88
+Scheme lnL        : -5806.7114
+Scheme BIC        : 12500.5543734
+Number of params  : 118
 Number of sites   : 1841
-Number of subsets : 3
+Number of subsets : 11
 
 Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment                               
-1      | GTR+I+G    | alineamiento_16S               | 1-533                          | ./analysis/phylofiles/524e6d444bfbafc9e254492aeab2c2bf.phy
-2      | GTR+I+G    | alineamiento_COI, alineamiento_CYTB | 534-1005, 1006-1438            | ./analysis/phylofiles/95123f36ba1e57a21f11b36af409f089.phy
-3      | TVMef+I    | alineamiento_WG                | 1439-1841                      | ./analysis/phylofiles/604d2f22a9340b0a94f06ae4beb5a847.phy
+1      | GTR+G      | alineamiento_16S_p1, alineamiento_16S_p3 | 1-533\3, 3-533\3               | ./analysis/phylofiles/c83c45ab0e2cb210b456c092fba3ceb9.phy
+2      | F81+G      | alineamiento_16S_p2            | 2-533\3                        | ./analysis/phylofiles/7f3316a73235cc85f47225e39980172f.phy
+3      | HKY+G      | alineamiento_COI_p1            | 534-1005\3                     | ./analysis/phylofiles/a7ad512e5c2ad3a67a74eb99a27a449a.phy
+4      | GTR+I      | alineamiento_COI_p2            | 535-1005\3                     | ./analysis/phylofiles/03d96b481d2f0ae3cf1207086ee58b17.phy
+5      | HKY+I      | alineamiento_COI_p3            | 536-1005\3                     | ./analysis/phylofiles/23233cf740aeb83cf0ec1a57d05eb9ea.phy
+6      | HKY        | alineamiento_CYTB_p1           | 1006-1438\3                    | ./analysis/phylofiles/2f6d5d487a1e13d4dac7124f9e02510d.phy
+7      | F81+G      | alineamiento_CYTB_p2           | 1007-1438\3                    | ./analysis/phylofiles/b5cf06900ff68b059436e59326d5dc2b.phy
+8      | F81+I      | alineamiento_CYTB_p3           | 1008-1438\3                    | ./analysis/phylofiles/d1ce9d764a8653f447112704a45f9294.phy
+9      | K80+I      | alineamiento_WG_p1             | 1439-1841\3                    | ./analysis/phylofiles/a24c69fbcd87b0464f324072cc767631.phy
+10     | JC+I       | alineamiento_WG_p2             | 1440-1841\3                    | ./analysis/phylofiles/75ca7e478554a17146b26b7338e5868a.phy
+11     | JC         | alineamiento_WG_p3             | 1441-1841\3                    | ./analysis/phylofiles/3c27543f85324d9d95b31d87c8739106.phy
 
 
 Scheme Description in PartitionFinder format
-Scheme_step_1 = (alineamiento_16S) (alineamiento_COI, alineamiento_CYTB) (alineamiento_WG);
+Scheme_step_1 = (alineamiento_16S_p1, alineamiento_16S_p3) (alineamiento_16S_p2) (alineamiento_COI_p1) (alineamiento_COI_p2) (alineamiento_COI_p3) (alineamiento_CYTB_p1) (alineamiento_CYTB_p2) (alineamiento_CYTB_p3) (alineamiento_WG_p1) (alineamiento_WG_p2) (alineamiento_WG_p3);
 
 RaxML-style partition definitions
-DNA, p1 = 1-533
-DNA, p2 = 534-1005, 1006-1438
-DNA, p3 = 1439-1841
+DNA, p1 = 1-533\3, 3-533\3
+DNA, p2 = 2-533\3
+DNA, p3 = 534-1005\3
+DNA, p4 = 535-1005\3
+DNA, p5 = 536-1005\3
+DNA, p6 = 1006-1438\3
+DNA, p7 = 1007-1438\3
+DNA, p8 = 1008-1438\3
+DNA, p9 = 1439-1841\3
+DNA, p10 = 1440-1841\3
+DNA, p11 = 1441-1841\3

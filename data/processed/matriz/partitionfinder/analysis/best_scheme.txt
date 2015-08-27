@@ -2,30 +2,34 @@ Settings used
 
 alignment         : ./matrix.phy
 branchlengths     : linked
-models            : K81+I, GTR+I, F81+I+G, GTR+G, TrN+G, F81, K81+G, F81+G, TIM, TIM+I+G, TVM+G, JC+I+G, TVMef+G, TVMef+I, TVM+I, TrNef+I, F81+I, JC, TIMef+G, HKY, K81uf+I, TVMef, K81uf+G, K81+I+G, TIMef+I, TVM, SYM+I, K81uf, JC+I, K80, K81, K80+I+G, K80+I, SYM+G, K81uf+I+G, K80+G, TrN+I, GTR+I+G, GTR, TIM+G, HKY+I+G, TIMef, TIM+I, TVMef+I+G, TVM+I+G, HKY+G, SYM+I+G, TrN, HKY+I, SYM, TIMef+I+G, JC+G, TrNef, TrNef+G, TrNef+I+G, TrN+I+G
-model_selection   : aic
+models            : GTR+I, GTR+G, F81, F81+G, SYM, F81+I, JC, HKY, K80, HKY+I+G, K80+I, SYM+G, SYM+I, K80+G, GTR, HKY+G, SYM+I+G, HKY+I, F81+I+G, JC+G, GTR+I+G, JC+I, K80+I+G, JC+I+G
+model_selection   : bic
 search            : greedy
 
 
 Best partitioning scheme
 
-Scheme Name       : step_1
-Scheme lnL        : -6076.84099
-Scheme AIC        : 12329.68198
-Number of params  : 88
+Scheme Name       : step_7
+Scheme lnL        : -5842.71485
+Scheme BIC        : 12384.6096689
+Number of params  : 93
 Number of sites   : 1841
-Number of subsets : 3
+Number of subsets : 5
 
-Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment                               
-1      | GTR+I+G    | alineamiento_16S               | 1-533                          | ./analysis/phylofiles/524e6d444bfbafc9e254492aeab2c2bf.phy
-2      | GTR+I+G    | alineamiento_COI, alineamiento_CYTB | 534-1005, 1006-1438            | ./analysis/phylofiles/95123f36ba1e57a21f11b36af409f089.phy
-3      | TVMef+I    | alineamiento_WG                | 1439-1841                      | ./analysis/phylofiles/604d2f22a9340b0a94f06ae4beb5a847.phy
+Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment
+1      | GTR+G      | alineamiento_16S_p1, alineamiento_16S_p2, alineamiento_16S_p3 | 1-533\3, 2-533\3, 3-533\3      | ./analysis/phylofiles/a0a2eee0a7169eac9746f4170ce30840.phy
+2      | HKY+G      | alineamiento_COI_p1, alineamiento_CYTB_p1 | 534-1005\3, 1006-1438\3        | ./analysis/phylofiles/65f5a4867fc68382c7ff91a121b2dd74.phy
+3      | GTR+G      | alineamiento_COI_p2, alineamiento_CYTB_p2, alineamiento_WG_p1 | 535-1005\3, 1007-1438\3, 1439-1841\3 | ./analysis/phylofiles/a539f5eb310f93cc2decd60136da1b85.phy
+4      | F81+I      | alineamiento_COI_p3, alineamiento_CYTB_p3 | 536-1005\3, 1008-1438\3        | ./analysis/phylofiles/b1c71d3c2c4dfe3f53ca829a9c0246be.phy
+5      | JC+I       | alineamiento_WG_p2, alineamiento_WG_p3 | 1440-1841\3, 1441-1841\3       | ./analysis/phylofiles/57948c4a5b61b68a58079f37eb4db8e6.phy
 
 
 Scheme Description in PartitionFinder format
-Scheme_step_1 = (alineamiento_16S) (alineamiento_COI, alineamiento_CYTB) (alineamiento_WG);
+Scheme_step_7 = (alineamiento_16S_p1, alineamiento_16S_p2, alineamiento_16S_p3) (alineamiento_COI_p1, alineamiento_CYTB_p1) (alineamiento_COI_p2, alineamiento_CYTB_p2, alineamiento_WG_p1) (alineamiento_COI_p3, alineamiento_CYTB_p3) (alineamiento_WG_p2, alineamiento_WG_p3);
 
 RaxML-style partition definitions
-DNA, p1 = 1-533
-DNA, p2 = 534-1005, 1006-1438
-DNA, p3 = 1439-1841
+DNA, p1 = 1-533\3, 2-533\3, 3-533\3
+DNA, p2 = 534-1005\3, 1006-1438\3
+DNA, p3 = 535-1005\3, 1007-1438\3, 1439-1841\3
+DNA, p4 = 536-1005\3, 1008-1438\3
+DNA, p5 = 1440-1841\3, 1441-1841\3
