@@ -1,0 +1,32 @@
+Scheme Name       : step_3
+Scheme lnL        : -5813.92274
+Scheme BIC        : 12439.7964116
+Number of params  : 108
+Number of sites   : 1841
+Number of subsets : 9
+
+Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment                               
+1      | GTR+G      | alineamiento_16S_p1, alineamiento_16S_p2, alineamiento_16S_p3 | 1-533\3, 2-533\3, 3-533\3      | ./analysis/phylofiles/a0a2eee0a7169eac9746f4170ce30840.phy
+2      | HKY+G      | alineamiento_COI_p1            | 534-1005\3                     | ./analysis/phylofiles/a7ad512e5c2ad3a67a74eb99a27a449a.phy
+3      | GTR+I      | alineamiento_COI_p2, alineamiento_CYTB_p2 | 535-1005\3, 1007-1438\3        | ./analysis/phylofiles/312dfa285df10db6196f80b02167a54b.phy
+4      | HKY+I      | alineamiento_COI_p3            | 536-1005\3                     | ./analysis/phylofiles/23233cf740aeb83cf0ec1a57d05eb9ea.phy
+5      | HKY        | alineamiento_CYTB_p1           | 1006-1438\3                    | ./analysis/phylofiles/2f6d5d487a1e13d4dac7124f9e02510d.phy
+6      | F81+I      | alineamiento_CYTB_p3           | 1008-1438\3                    | ./analysis/phylofiles/d1ce9d764a8653f447112704a45f9294.phy
+7      | K80+I      | alineamiento_WG_p1             | 1439-1841\3                    | ./analysis/phylofiles/a24c69fbcd87b0464f324072cc767631.phy
+8      | JC+I       | alineamiento_WG_p2             | 1440-1841\3                    | ./analysis/phylofiles/75ca7e478554a17146b26b7338e5868a.phy
+9      | JC         | alineamiento_WG_p3             | 1441-1841\3                    | ./analysis/phylofiles/3c27543f85324d9d95b31d87c8739106.phy
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_3 = (alineamiento_16S_p1, alineamiento_16S_p2, alineamiento_16S_p3) (alineamiento_COI_p1) (alineamiento_COI_p2, alineamiento_CYTB_p2) (alineamiento_COI_p3) (alineamiento_CYTB_p1) (alineamiento_CYTB_p3) (alineamiento_WG_p1) (alineamiento_WG_p2) (alineamiento_WG_p3);
+
+RaxML-style partition definitions
+DNA, p1 = 1-533\3, 2-533\3, 3-533\3
+DNA, p2 = 534-1005\3
+DNA, p3 = 535-1005\3, 1007-1438\3
+DNA, p4 = 536-1005\3
+DNA, p5 = 1006-1438\3
+DNA, p6 = 1008-1438\3
+DNA, p7 = 1439-1841\3
+DNA, p8 = 1440-1841\3
+DNA, p9 = 1441-1841\3
