@@ -53,13 +53,13 @@ begin mrbayes;
 	prset applyto=(1) pinvarpr=fixed(0.4780) statefreqpr=dirichlet(0.4261, 0.0652, 0.1192, 0.3896);
 	prset applyto=(2) pinvarpr=fixed(0.5780) statefreqpr=dirichlet(0.3130, 0.1547, 0.1086, 0.4238);
 	lset applyto=(3) nst=6 rates=gamma;
-  prset applyto=(3) statefreqpr=(0.3495, 0.1183, 0.0823, 0.4500)
+  prset applyto=(3) statefreqpr=dirichlet(0.3495, 0.1183, 0.0823, 0.4500);
 	lset applyto=(4) nst=2 rates=propinv;
 	prset applyto=(4) pinvarpr=fixed(0.8730) statefreqpr=fixed(equal);
 	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all);
 	prset applyto=(all) ratepr=variable;
 	mcmcp ngen= 50000000 relburnin=yes burninfrac=0.25 printfreq=1000  samplefreq=1000 nchains=2 checkpoint=yes savebrlens=yes;
-	mcmc;
+	mcmc append=yes;
 	sumt;
 	sump;
 end;
