@@ -1,0 +1,126 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=32;
+	taxlabels
+	Asteloeca_traili_Maranhao[&!color=#f80707]
+	Clypearia_weyrauchi_Amazonas[&!color=#f80707]
+	Epipona_media_Bahia[&!color=#f80707]
+	Epipona_tatua_Amazonas[&!color=#f80707]
+	Metapolybia_decorata_Espirito_Santo[&!color=#f80707]
+	Metapolybia_docilis_Maranhao[&!color=#f80707]
+	Synoeca_chalibea_Acre[&!color=#3f07f8]
+	Synoeca_chalibea_Amazonas[&!color=#3f07f8]
+	Synoeca_cyanea_Bahia[&!color=#ff6000]
+	Synoeca_cyanea_Espirito_Santo[&!color=#ff6000]
+	Synoeca_cyanea_Minas_Gerais[&!color=#ff6000]
+	Synoeca_cyanea_Misiones[&!color=#ff6000]
+	Synoeca_cyanea_Rio_Grande_do_Sul[&!color=#ff6000]
+	Synoeca_cyanea_Sao_Paulo[&!color=#ff6000]
+	Synoeca_septentrionalis_Bahia[&!color=#845300]
+	Synoeca_septentrionalis_Chiapas1[&!color=#51eefb]
+	Synoeca_septentrionalis_Chiapas2[&!color=#51eefb]
+	Synoeca_septentrionalis_Cundinamarca[&!color=#51eefb]
+	Synoeca_septentrionalis_Espirito_Santo[&!color=#845300]
+	Synoeca_septentrionalis_Guanacaste[&!color=#51eefb]
+	Synoeca_septentrionalis_Jalisco[&!color=#51eefb]
+	Synoeca_septentrionalis_Pernambuco[&!color=#845300]
+	Synoeca_septentrionalis_Sao_Paulo[&!color=#845300]
+	Synoeca_surinama_Acre[&!color=#ff006b]
+	Synoeca_surinama_Amapa[&!color=#ff006b]
+	Synoeca_surinama_Bahia[&!color=#ff006b]
+	Synoeca_surinama_Distrito_Federal[&!color=#ff006b]
+	Synoeca_surinama_Sergipe[&!color=#ff006b]
+	Synoeca_virginea_Amazonas1[&!color=#39a510]
+	Synoeca_virginea_Amazonas2[&!color=#39a510]
+	Synoeca_virginea_Maranhao[&!color=#39a510]
+	Synoeca_virginea_Para[&!color=#39a510]
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (Epipona_media_Bahia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0261851694,length_median=0.02581137,length_95%HPD={0.01208098,0.04048634},!rotate=false,!color=#010101]:0.025811,Epipona_tatua_Amazonas[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0125308205,length_median=0.01198865,length_95%HPD={0.001459398,0.02421113},!color=#010101,!rotate=false]:0.011989,((((Synoeca_cyanea_Misiones[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00676955933,length_median=0.006157734,length_95%HPD={0.001127776,0.0136623},!rotate=false]:0.006158,Synoeca_cyanea_Bahia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00342934636,length_median=0.003219572,length_95%HPD={5.895375E-4,0.006604767},!rotate=false]:0.00322,Synoeca_cyanea_Espirito_Santo[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0013744602,length_median=0.001179224,length_95%HPD={6.521672E-7,0.003204895},!rotate=false]:0.001179,Synoeca_cyanea_Minas_Gerais[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00111923499,length_median=9.360118E-4,length_95%HPD={9.205548E-6,0.002689549},!rotate=false]:9.36E-4,Synoeca_cyanea_Rio_Grande_do_Sul[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00165913194,length_median=0.001419084,length_95%HPD={6.202219E-8,0.003997699},!rotate=false]:0.001419,Synoeca_cyanea_Sao_Paulo[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00136933196,length_median=0.001172755,length_95%HPD={1.655277E-5,0.003177655},!rotate=false]:0.001173)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0256720085,length_median=0.02534176,length_95%HPD={0.0155438,0.03653839},!rotate=false]:0.025342,((((((Synoeca_septentrionalis_Bahia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=6.23206863E-4,length_median=4.336811E-4,length_95%HPD={1.345237E-8,0.001874329},!rotate=false]:4.34E-4,Synoeca_septentrionalis_Espirito_Santo[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00232676186,length_median=0.002132981,length_95%HPD={3.976034E-4,0.004646022},!rotate=false]:0.002133)[&prob=0.786405696,prob_stddev=0.00158387695,prob_range={0.785285726,0.787525666},prob(percent)="79",prob+-sd="79+-0",length_mean=0.00108100173,length_median=8.939285E-4,length_95%HPD={1.443715E-7,0.002666472},!rotate=false]:8.94E-4,Synoeca_septentrionalis_Sao_Paulo[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.64857588E-4,length_median=3.895889E-4,length_95%HPD={1.186269E-8,0.001698312},!rotate=false]:3.9E-4,Synoeca_surinama_Bahia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00110953002,length_median=9.26537E-4,length_95%HPD={1.894501E-5,0.00266357},!rotate=true]:9.27E-4)[&prob=0.881843151,prob_stddev=0.00165929967,prob_range={0.880669849,0.883016453},prob(percent)="88",prob+-sd="88+-0",length_mean=0.00172707635,length_median=0.001529514,length_95%HPD={1.33515E-4,0.003770109},!rotate=false]:0.00153,(Synoeca_septentrionalis_Pernambuco[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00279508749,length_median=0.002600606,length_95%HPD={6.309303E-4,0.005312636}]:0.002601,Synoeca_surinama_Sergipe[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00112887765,length_median=9.468356E-4,length_95%HPD={2.330151E-5,0.002705045}]:9.47E-4)[&prob=0.999960001,prob_stddev=1.8855678E-5,prob_range={0.999946668,0.999973334},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00306230794,length_median=0.002849713,length_95%HPD={6.656999E-4,0.005872584},!rotate=true]:0.00285)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00864190206,length_median=0.008413872,length_95%HPD={0.004064335,0.01375146}]:0.008414,((Synoeca_surinama_Acre[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00435414884,length_median=0.004166456,length_95%HPD={0.001488051,0.007522235}]:0.004166,Synoeca_surinama_Distrito_Federal[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00121032925,length_median=0.001018067,length_95%HPD={1.666008E-5,0.002874283}]:0.001018)[&prob=0.96436095,prob_stddev=0.00115019636,prob_range={0.963547639,0.965174262},prob(percent)="96",prob+-sd="96+-0",length_mean=0.00156975705,length_median=0.001379307,length_95%HPD={7.062594E-5,0.003483894}]:0.001379,Synoeca_surinama_Amapa[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00248148182,length_median=0.002278459,length_95%HPD={4.822215E-4,0.004970802}]:0.002278)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0102500686,length_median=0.01000598,length_95%HPD={0.005272061,0.01574907}]:0.010006)[&prob=0.912588998,prob_stddev=5.27958984E-4,prob_range={0.912215674,0.912962321},prob(percent)="91",prob+-sd="91+-0",length_mean=0.00319654077,length_median=0.002872856,length_95%HPD={9.790808E-5,0.006905737}]:0.002873,(((Synoeca_septentrionalis_Chiapas1[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=7.2556353E-4,length_median=5.226397E-4,length_95%HPD={1.198859E-8,0.002105429}]:5.23E-4,Synoeca_septentrionalis_Chiapas2[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=9.56454833E-4,length_median=6.630334E-4,length_95%HPD={1.505917E-8,0.002880608}]:6.63E-4)[&prob=0.978133916,prob_stddev=0.00120676339,prob_range={0.977280606,0.978987227},prob(percent)="98",prob+-sd="98+-0",length_mean=0.00193506583,length_median=0.001718359,length_95%HPD={7.949112E-5,0.004257354}]:0.001718,Synoeca_septentrionalis_Cundinamarca[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0013763494,length_median=0.001160869,length_95%HPD={5.13643E-8,0.003310908}]:0.001161)[&prob=0.998426709,prob_stddev=7.54227121E-5,prob_range={0.998373377,0.998480041},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00813879493,length_median=0.007903488,length_95%HPD={0.003341775,0.01320431}]:0.007903,Synoeca_septentrionalis_Guanacaste[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00825245623,length_median=0.007986675,length_95%HPD={0.00349234,0.01343055}]:0.007987)[&prob=0.942761526,prob_stddev=8.48505511E-4,prob_range={0.942161542,0.94336151},prob(percent)="94",prob+-sd="94+-0",length_mean=0.0055503882,length_median=0.005319988,length_95%HPD={0.00168988,0.009923125}]:0.00532)[&prob=0.982573798,prob_stddev=9.61639579E-4,prob_range={0.981893816,0.98325378},prob(percent)="98",prob+-sd="98+-0",length_mean=0.00503094129,length_median=0.004706209,length_95%HPD={8.543147E-4,0.00976525},!rotate=true]:0.004706,Synoeca_septentrionalis_Jalisco[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0165183987,length_median=0.01625507,length_95%HPD={0.009488526,0.02391114}]:0.016255)[&prob=0.903229247,prob_stddev=0.00165929967,prob_range={0.902055945,0.904402549},prob(percent)="90",prob+-sd="90+-0",length_mean=0.00540511479,length_median=0.005021302,length_95%HPD={1.694181E-4,0.01098528},!rotate=true]:0.005021)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0291916358,length_median=0.02867908,length_95%HPD={0.01570794,0.04385913},!rotate=true]:0.028679,((Synoeca_chalibea_Acre[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00122754538,length_median=9.990654E-4,length_95%HPD={1.916177E-8,0.003101344}]:9.99E-4,Synoeca_chalibea_Amazonas[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00480680569,length_median=0.004606738,length_95%HPD={0.001767994,0.008238251}]:0.004607)[&prob=0.997653396,prob_stddev=3.01690848E-4,prob_range={0.997440068,0.997866724},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00982133056,length_median=0.009413701,length_95%HPD={0.002517872,0.01769125}]:0.009414,((Synoeca_virginea_Amazonas1[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00536030659,length_median=0.004865855,length_95%HPD={7.432283E-4,0.01089869}]:0.004866,Synoeca_virginea_Amazonas2[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00481296664,length_median=0.004436327,length_95%HPD={9.100212E-4,0.00959141}]:0.004436)[&prob=0.98988027,prob_stddev=9.42783901E-5,prob_range={0.989813605,0.989946935},prob(percent)="99",prob+-sd="99+-0",length_mean=0.00986628908,length_median=0.00948008,length_95%HPD={0.003370449,0.01737176}]:0.00948,(Synoeca_virginea_Maranhao[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=8.9675554E-4,length_median=6.12078E-4,length_95%HPD={1.61582E-8,0.002692452}]:6.12E-4,Synoeca_virginea_Para[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=7.87315904E-4,length_median=5.443982E-4,length_95%HPD={2.247027E-8,0.002362725}]:5.44E-4)[&prob=0.986720354,prob_stddev=3.39402204E-4,prob_range={0.986480361,0.986960348},prob(percent)="99",prob+-sd="99+-0",length_mean=0.00496755713,length_median=0.004690909,length_95%HPD={7.122433E-4,0.009880215}]:0.004691)[&prob=0.975160662,prob_stddev=8.86216867E-4,prob_range={0.974534012,0.975787312},prob(percent)="98",prob+-sd="98+-0",length_mean=0.0102577622,length_median=0.009936882,length_95%HPD={0.002715074,0.01810512}]:0.009937)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0346484685,length_median=0.03412829,length_95%HPD={0.02033364,0.05014077}]:0.034128)[&prob=0.999986667,prob_stddev=1.8855678E-5,prob_range={0.999973334,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0457805582,length_median=0.04496056,length_95%HPD={0.02435429,0.06875141}]:0.044961,(Asteloeca_traili_Maranhao[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0742651409,length_median=0.0733251,length_95%HPD={0.04736321,0.101705}]:0.073325,Clypearia_weyrauchi_Amazonas[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.105382744,length_median=0.1042113,length_95%HPD={0.07237766,0.1388018}]:0.104211,(Metapolybia_decorata_Espirito_Santo[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0353371587,length_median=0.03460034,length_95%HPD={0.01579259,0.05713065}]:0.0346,Metapolybia_docilis_Maranhao[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0161233474,length_median=0.01527637,length_95%HPD={8.078066E-4,0.03182976}]:0.015276)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0694063021,length_median=0.06840807,length_95%HPD={0.04305367,0.09881326}]:0.068408)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0403957019,length_median=0.03951089,length_95%HPD={0.01898488,0.06273481}]:0.039511)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0672889755,length_median=0.06652017,length_95%HPD={0.04252079,0.09353319}]:0.06652);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=true;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=699;
+	set legend.attribute="length_mean";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="length_95%HPD";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="prob";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=204;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.05;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.03;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
