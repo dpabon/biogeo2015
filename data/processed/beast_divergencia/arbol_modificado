@@ -1,0 +1,104 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=10;
+	taxlabels
+	Epipona_media_Bahia
+	Synoeca_chalibea_Amazonas
+	Synoeca_cyanea_Minas_Gerais
+	Synoeca_septentrionalis_Cundinamarca
+	Synoeca_septentrionalis_Espirito_Santo
+	Synoeca_septentrionalis_Pernambuco
+	Synoeca_surinama_Amapa
+	Synoeca_surinama_Bahia
+	Synoeca_surinama_Sergipe
+	Synoeca_virginea_Amazonas1
+;
+end;
+
+begin trees;
+	tree TREE1 = [&R] (((Synoeca_chalibea_Amazonas[&rate_range={0.0010282733749448318,0.07948086404197634},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.8619559012307172,3.9444134125212265},height_median=0.0,length_95%_HPD={1.4795633504685426,3.0816228419778424},height=9.658639983393608E-16,rate=0.015134505646855955,height_range={0.0,1.0658141036401503E-14},rate_median=0.014257080230303013,length=2.2399741140341143,length_median=2.2374999690882023,rate_95%_HPD={0.006005684125101503,0.02566215107871885}]:2.237539,Synoeca_virginea_Amazonas1[&rate_range={0.0014193877538810503,0.0904514743022306},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.8619559012307172,3.9444134125212265},height_median=0.0,length_95%_HPD={1.4786506255503684,3.080475870057732},height=9.658639983393608E-16,rate=0.01637108561996167,height_range={0.0,1.0658141036401503E-14},rate_median=0.014916540473518602,length=2.2401335151347976,length_median=2.237577078479943,rate_95%_HPD={0.007413836964419871,0.028781670089914477}]:2.237539)[&height_95%_HPD={1.4786506255503706,3.0804758700577324},length_range={0.5911319889208653,8.319525334944514},length_95%_HPD={4.342817509209498,6.8375228052838795},height_range={0.8619559012307176,3.9444134125212287},rate_95%_HPD={0.008028452230920009,0.02595714175357217},rate_range={0.001414392323080268,0.14435391668956687},height_median=2.237538523784073,rate=0.015393471402584355,height=2.2400514117648553,posterior=0.9998998096383128,rate_median=0.014413784691650467,length=5.510519161830963,length_median=5.529394993865891]:5.558276,(Synoeca_cyanea_Minas_Gerais[&rate_range={0.0026179407572188866,0.05540152106535065},height_95%_HPD={0.0,3.552713678800501E-15},length_range={1.3412086176056321,4.960539699253393},height_median=0.0,length_95%_HPD={2.5960290831282355,4.194124780554619},height=9.582111234676835E-16,rate=0.013570632413888228,height_range={0.0,7.105427357601002E-15},rate_median=0.013224388075522474,length=3.381340849635337,length_median=3.371952507145113,rate_95%_HPD={0.007121197985270063,0.020488166131284166}]:3.372095,(Synoeca_septentrionalis_Cundinamarca[&rate_range={7.186741220451562E-4,0.05412574828776491},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.5320199746860322,3.497755448026349},height_median=0.0,length_95%_HPD={1.409741294349431,2.7351587678628144},height=9.431723344756665E-16,rate=0.012742139294543169,height_range={0.0,7.105427357601002E-15},rate_median=0.012584894961389446,length=2.0583921692688225,length_median=2.0500105720619133,rate_95%_HPD={0.0053461967619046445,0.019463223145324626}]:2.054764,(((Synoeca_septentrionalis_Pernambuco[&rate_range={8.228374031327565E-4,0.20869429185369745},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.006005294326241647,0.6381291489110614},height_median=0.0,length_95%_HPD={0.0163330036624235,0.2617011228129576},height=9.559864505398702E-16,rate=0.01732570197234829,height_range={0.0,1.0658141036401503E-14},rate_median=0.014895964838380994,length=0.12697562066300797,length_median=0.11351983886715404,rate_95%_HPD={0.00576875078681205,0.03447888586585335}]:0.113393,Synoeca_surinama_Sergipe[&rate_range={3.9678665096037723E-4,0.08090830071034832},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.006005294326241647,0.6381291489110614},height_median=0.0,length_95%_HPD={0.017160435916351545,0.2617753823547212},height=9.554525290371952E-16,rate=0.01352188760472157,height_range={0.0,1.0658141036401503E-14},rate_median=0.013129272611357563,length=0.12685191082155625,length_median=0.11350277751064992,rate_95%_HPD={0.003788957082979586,0.022651988897399188}]:0.113393)[&height_95%_HPD={0.017294065521264557,0.2617753823547204},length_range={0.0035313505695564462,0.8357997015221661},length_95%_HPD={0.030354530258237672,0.3999798650194001},height_range={0.006005294326241639,0.6381291489110623},rate_95%_HPD={0.005746180511577345,0.030301502662742848},rate_range={0.0013718407702516613,0.15483737685177965},height_median=0.1133934282055371,rate=0.01603080974078678,height=0.1267499812626291,posterior=0.9987977156597535,rate_median=0.014404025411276094,length=0.19303683501668364,length_median=0.17448873144184315]:0.228124,(Synoeca_surinama_Bahia[&rate_range={5.80546230074135E-4,0.25045106248260113},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.01464037258751853,0.973113123213262},height_median=0.0,length_95%_HPD={0.04912335041160578,0.45620672025920467},height=9.668428544275984E-16,rate=0.013426814155937347,height_range={0.0,7.105427357601002E-15},rate_median=0.013065776532148627,length=0.24033231058186835,length_median=0.2264057152210695,rate_95%_HPD={0.0039703345111998445,0.021995491634356937}]:0.191477,Synoeca_septentrionalis_Espirito_Santo[&rate_range={0.0013390125099839955,0.2100047484899117},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.01464037258751853,1.1073054178025807},height_median=0.0,length_95%_HPD={0.048335386436477154,0.5224061057961314},height=9.610587048152842E-16,rate=0.013833511777013108,height_range={0.0,1.0658141036401503E-14},rate_median=0.013363506887623371,length=0.26654889138082805,length_median=0.2487231562816682,rate_95%_HPD={0.003917184105559175,0.022821456505657315}]:0.191477)[&height_95%_HPD={0.03771249560861989,0.39553930245486413},length_range={6.753810150372797E-5,0.8593481780297657},length_95%_HPD={6.753810150372797E-5,0.363587240896035},height_range={0.014640372587518158,0.9731131232132624},rate_95%_HPD={0.004277038053831243,0.022486338138140216},rate_range={8.228374031327565E-4,0.09548213422066418},height_median=0.1914767431683071,rate=0.013876943783016963,height=0.2059464795581905,posterior=0.5594629796613566,rate_median=0.013386874585928337,length=0.15257498182011764,length_median=0.13176147549443973]:0.150041)[&height_95%_HPD={0.14308608676147117,0.6039683050214002},length_range={0.18145210974696985,2.41422908896236},length_95%_HPD={0.5412284147392338,1.6688843352209524},height_range={0.06320310282816521,1.128095867144257},rate_95%_HPD={0.007320778110268396,0.024261100692438992},rate_range={0.0033001484674289416,0.08403874878138605},height_median=0.34151771913794704,rate=0.015063036876538073,height=0.3581092498135266,posterior=1.0,rate_median=0.014227245953984145,length=1.1066273552384844,length_median=1.0916754683081629]:1.095094,Synoeca_surinama_Amapa[&rate_range={0.0023919200017136323,0.0351163914433434},height_95%_HPD={0.0,3.552713678800501E-15},length_range={0.47351944343452435,2.728929976161534},height_median=0.0,length_95%_HPD={0.9162658402069268,2.0502612474916027},height=9.534948168607195E-16,rate=0.013311484692156053,height_range={0.0,7.105427357601002E-15},rate_median=0.013003261822897972,length=1.4564091935603494,length_median=1.442054745551197,rate_95%_HPD={0.006585723162218603,0.02074894239395485}]:1.436612)[&height_95%_HPD={0.916265840206929,2.037930737187448},length_range={1.8840589880664282E-4,2.5015047859026955},length_95%_HPD={0.06707461507715062,1.216450473949902},height_range={0.4735194434345251,2.7289299761615347},rate_95%_HPD={0.0056863719067078815,0.025536728126925416},rate_range={0.0018149278544499537,0.10234654447571137},height_median=1.4366121334655926,rate=0.014895978397064042,height=1.449899411226085,posterior=0.9588217613465585,rate_median=0.013938110226449201,length=0.6289842444535175,length_median=0.59699328313051]:0.618152)[&height_95%_HPD={1.475625180733374,2.7326527246078633},length_range={0.08729621941410937,3.3426701229461546},length_95%_HPD={0.44042457281272807,2.121237545416919},height_range={1.0233308926468174,3.4977554480263526},rate_95%_HPD={0.006450387943155247,0.02567711858774833},rate_range={0.0011629204539651465,0.11268067347474392},height_median=2.05476447221918,rate=0.014993103236776622,height=2.0681841126872262,posterior=0.9963931469792606,rate_median=0.014044249902012041,length=1.3173241126703064,length_median=1.3015951484589365]:1.31733)[&height_95%_HPD={2.609124798071706,4.194491877671545},length_range={0.02923686421558891,6.857171922237428},length_95%_HPD={3.0646821648763343,5.595581971743443},height_range={1.9276381330173855,4.960539699253395},rate_95%_HPD={0.006182508507531531,0.023286855601166435},rate_range={7.256671470763498E-4,0.11485793089143599},height_median=3.372094535030442,rate=0.014355080260958615,height=3.383233537126533,posterior=1.0,rate_median=0.013743190770860074,length=4.352749331593413,length_median=4.387544492682677]:4.42372)[&height_95%_HPD={6.864627215961338,8.73377411133577},length_range={0.020640064425430538,27.796974391166913},length_95%_HPD={0.22263227204155278,13.906211874186901},height_range={6.060700342419139,9.534306694321005},rate_95%_HPD={0.005731989292793762,0.02776961067857421},rate_range={0.0012480644797105928,0.17326732225439345},height_median=7.795815017551247,rate=0.015753526832425077,height=7.79196082913238,posterior=0.9285642721170223,rate_median=0.01439888973867187,length=7.818495659491105,length_median=7.699561368529683]:7.377996,Epipona_media_Bahia[&rate_range={0.0029946575382022683,0.41485320857997937},height_95%_HPD={0.0,3.552713678800501E-15},length_range={1.4685427612493978,36.16753607348228},height_median=0.0,length_95%_HPD={5.642570153850253,22.34422777109234},height=9.560754374569828E-16,rate=0.021255136482248287,height_range={0.0,7.105427357601002E-15},rate_median=0.015932765293798373,length=14.95554881479695,length_median=15.173810828751071,rate_95%_HPD={0.0076966082483334135,0.05512499210297577}]:15.173811)[&height_95%_HPD={7.115515071829529,21.7479127037865},height_median=15.173810828751073,height=15.050326691091051,posterior=1.0,height_range={6.494489734471367,36.16753607348229},length=0.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="height_range";
+	set nodeBars.isShown=true;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=5.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=false;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
