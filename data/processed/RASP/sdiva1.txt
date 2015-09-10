@@ -1,0 +1,29 @@
+Statistical Dispersal-Vicariance Analysis result file
+[TAXON]
+1	Asteloeca_traili	A
+2	Clypearia_weyrauchi	A
+3	Epipona_media	AC
+4	Epipona_tatua	AD
+5	Metapolybia_decorata	AC
+6	Metapolybia_docilis	ABCD
+7	S_chalibea	AB
+8	S_cyanea	CD
+9	S_septentrionalis_AF	C
+10	S_septentrionalis_MA	AB
+11	S_surinama	ACD
+12	S_virginea	A
+[TREE]
+Tree=((((5:0.028090657903433916,6:0.028090657903433916)1.0000:0.05534191174532917,1:0.08343256964876308)0.4298:0.006173682948539191,2:0.08960625259730227)0.9458:0.015529287016339113,(((8:0.022650821964555937,(10:0.0164505259656341,(9:0.002544756030535014,11:0.002544756030535014)1.0000:0.013905769935099087)0.9989:0.006200295998921836)1.0000:0.022509447373234376,(7:0.016902159306529232,12:0.016902159306529232)1.0000:0.02825811003126108)1.0000:0.03914208097158452,(4:0.01853519336488864,3:0.01853519336488864)1.0000:0.06576715694448619)0.9959:0.02083318930426656)1.0000;
+[RESULT]
+optimal distributions at each node:
+node 13 (anc. of terminals 5-6) (P=1.00): A 84.95 ABCD 7.69 BCD 7.36
+node 14 (anc. of terminals 5-1) (P=0.47): A 97.87 ABCD 2.13
+node 15 (anc. of terminals 5-2) (P=0.94): A 89.89 ABCD 10.11
+node 16 (anc. of terminals 9-11) (P=1.00): ACD 33.33 AC 33.33 C 33.33
+node 17 (anc. of terminals 10-11) (P=1.00): BC 25.00 ABC 25.00 A 25.00 AC 25.00
+node 18 (anc. of terminals 8-11) (P=1.00): ABD 12.61 ACD 12.61 ABCD 12.61 AD 12.61 C 12.61 AC 12.61 ABC 12.61 BCD 11.75
+node 19 (anc. of terminals 7-12) (P=1.00): A 100.00
+node 20 (anc. of terminals 8-12) (P=1.00): AC 34.33 A 34.33 ABCD 31.33
+node 21 (anc. of terminals 4-3) (P=1.00): A 100.00
+node 22 (anc. of terminals 8-3) (P=1.00): A 53.00 ABCD 47.00
+node 23 (anc. of terminals 5-3) (P=1.00): A 51.00 ABCD 49.00
